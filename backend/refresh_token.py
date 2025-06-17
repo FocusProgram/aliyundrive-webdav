@@ -34,10 +34,10 @@ async def main():
         page_title="aliyundrive-webdav refresh token 获取工具",
         layout="wide",
     )
-    st.title("aliyundrive-webdav refresh token 获取")
-    st.markdown(
-        "👏 欢迎加入 [aliyundrive-webdav 知识星球](https://t.zsxq.com/0c9sq6Ca8)获取咨询和技术支持服务"
-    )
+    st.title("aliyundrive-webdav refresh token 获取工具")
+    # st.markdown(
+    #     "👏 欢迎加入 [aliyundrive-webdav 知识星球](https://t.zsxq.com/0c9sq6Ca8)获取咨询和技术支持服务"
+    # )
 
     qrcode_tab, authcode_tab = st.tabs(["扫码授权", "authCode"])
 
